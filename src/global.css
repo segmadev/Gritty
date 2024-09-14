@@ -1,4 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Avenir+Next+Cyr:wght@400;700&display=swap");
+@font-face {
+  font-family: "Avenir Next Cyr";
+  src: url("/public/AvenirNextCyr-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Avenir Next Cyr";
+  src: url("/public/AvenirNextCyr-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("/public/Gilroy-Bold.ttf");
+  font-weight: 700;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

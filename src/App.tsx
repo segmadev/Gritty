@@ -5,6 +5,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import LandingPage from "./pages/LandingPage";
 import Root from "./pages/Root";
 
 function App() {
@@ -27,6 +28,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/root":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -45,7 +50,8 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Root />} />
+      <Route path="/" element={<LandingPage />} />
+      <Route path="/root" element={<Root />} />
     </Routes>
   );
 }

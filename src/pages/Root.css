@@ -1,0 +1,239 @@
+.africas-leading-ai-driven {
+  margin: 0;
+}
+.africas-leading-ai-driven-container {
+  margin: 0;
+  align-self: stretch;
+  height: 274px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.we-are-on {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 160%;
+}
+.africas-leading-ai-driven-pr-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-35xl);
+}
+.join-the-waitlist {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-avenir-next-cyr);
+  color: var(--background);
+  text-align: center;
+}
+.buttons {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xl) 64px;
+  background-color: var(--primary-2);
+  flex: 1;
+  border-radius: var(--br-31xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-width: 170px;
+  white-space: nowrap;
+}
+.buttons:hover {
+  background-color: var(--color-orangered);
+}
+.take-a-survey {
+  width: 114px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-avenir-next-cyr);
+  color: var(--background);
+  text-align: center;
+  display: inline-block;
+  min-width: 114px;
+}
+.buttons1 {
+  cursor: pointer;
+  border: 1px solid var(--background);
+  padding: var(--padding-3xl) var(--padding-44xl);
+  background-color: transparent;
+  border-radius: var(--br-31xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.buttons1:hover {
+  background-color: var(--color-gainsboro-300);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+.call-to-action-buttons,
+.frame-parent {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.call-to-action-buttons {
+  width: 555px;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-13xl);
+}
+.frame-parent {
+  position: absolute;
+  top: 217px;
+  left: 100px;
+  width: 829px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-sm) 0 0;
+  gap: var(--gap-45xl);
+  z-index: 2;
+}
+.frame-child,
+.frame-item {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frame-child {
+  flex: 1;
+  border-radius: var(--br-101xl);
+  max-height: 100%;
+}
+.frame-item {
+  height: 143px;
+  border-radius: var(--br-101xl) var(--br-101xl) var(--br-101xl) 0;
+  flex-shrink: 0;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 231px;
+  left: 948px;
+  width: 180px;
+  height: 547px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  z-index: 2;
+}
+.frame-inner {
+  align-self: stretch;
+  height: 143px;
+  position: relative;
+  border-radius: var(--br-101xl) 0 var(--br-101xl) var(--br-101xl);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.rectangle-group {
+  position: absolute;
+  top: 231px;
+  left: 1160px;
+  width: 180px;
+  height: 547px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  z-index: 2;
+}
+.grid-icon,
+.stars-icon {
+  position: absolute;
+  top: -142px;
+  left: -522px;
+  width: 2440.3px;
+  height: 1268px;
+  overflow: hidden;
+}
+.stars-icon {
+  top: 80px;
+  left: -831.4px;
+  width: 3439.7px;
+  height: 855.1px;
+  z-index: 1;
+}
+.gritty-pr-logo-3-2 {
+  position: absolute;
+  top: 40px;
+  left: 100px;
+  width: 234px;
+  height: 40px;
+  object-fit: cover;
+  z-index: 1;
+}
+.highlight-05-icon {
+  position: absolute;
+  top: 186.6px;
+  left: 934.5px;
+  width: 57.4px;
+  height: 61.1px;
+  object-fit: contain;
+  z-index: 3;
+}
+.grid-and-branding {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.root {
+  width: 100%;
+  height: 952px;
+  position: relative;
+  background-color: var(--primary-1);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-white);
+  font-family: var(--font-avenir-next-cyr);
+}
+@media screen and (max-width: 750px) {
+  .africas-leading-ai-driven-container {
+    font-size: var(--font-size-32xl);
+    line-height: 77px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .africas-leading-ai-driven-container {
+    font-size: var(--font-size-19xl);
+    line-height: 58px;
+  }
+  .we-are-on {
+    font-size: var(--font-size-lgi);
+    line-height: 31px;
+  }
+  .root {
+    height: auto;
+    min-height: 952;
+  }
+}

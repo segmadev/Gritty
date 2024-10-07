@@ -1,0 +1,37 @@
+.what-makes-pandomzfx {
+  width: 218px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-avenir-next-cyr);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  position: relative;
+  line-height: 32px;
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.bxchevron-right-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: contain;
+}
+.accordion {
+  align-self: stretch;
+  border-bottom: 1px solid var(--secondary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 var(--padding-19xl);
+  opacity: 0.5;
+  gap: var(--gap-xl);
+}
+@media screen and (max-width: 450px) {
+  .what-makes-pandomzfx {
+    font-size: var(--font-size-base);
+    line-height: 26px;
+  }
+}
